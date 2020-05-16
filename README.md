@@ -10,7 +10,7 @@
 - Height
 - Width
 - Font-size
-- ~~Font-family~~ (still working on this feature)
+- Font-family (still working on this feature)
 ### How it works
 
 Simply click the element of want to get info about (**NOTE:** This extension doesn't disable anchor tags)
