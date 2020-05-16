@@ -1,14 +1,14 @@
 {
     "manifest_version": 2,
-    "name": "Borderify",
+    "name": "CSS scanner",
     "version": "1.0.0",
-    "description": "Adds a red border to all webpages matching mozilla.org",
+    "description": "Scans CSS and gives a popup about it's info",
     "icons": {
         "128": "icon_128.png"
     },
     "content_scripts": [
         {
-            "matches" : ["*://*.mozilla.org/*"],
+            "matches" : ["*://*/*"],
             "js": ["borderify.js"]
         }
     ]
