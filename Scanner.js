@@ -1,6 +1,6 @@
 
 document.body.addEventListener("click", (e) => {
-    
+    var old = e.target.style.border;
     let fontSize = window.getComputedStyle(e.target).getPropertyValue("font-size");
     let fontFamily = window.getComputedStyle(e.target).getPropertyValue("font-family");
     
@@ -16,7 +16,7 @@ document.body.addEventListener("mouseover", (e) => {
 })
 
 document.body.addEventListener("mouseout", (e) => {
-    e.target.style.border = 'none';
+    e.target.style.border = old;
 });
 
 
