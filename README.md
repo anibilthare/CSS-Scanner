@@ -3,7 +3,7 @@
 ## **Description:** Basic web extension for Firefox and Chrome
 
 - Add this extension to your browser.
-- Gets working with you needing to switch it on.
+- Gets working without you needing to switch it on.
 - Remove to make it stop working
 
 ### What it shows
